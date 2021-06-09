@@ -42,6 +42,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 0;
   border: 0;
   outline: 0;
+    justify-content: space-evenly
 }
 
 .clearfix:after {
@@ -51,6 +52,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   visibility: hidden;
   line-height: 0;
   height: 0;
+    justify-content: space-evenly
 }
 
 .clearfix {
@@ -73,6 +75,7 @@ ul, li {
 
 header, nav, section, article, aside, footer, hgroup {
   display: block;
+    justify-content: space-evenly
 }
 
 * {
@@ -87,6 +90,7 @@ html, body {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    justify-content:
 }
 
 a {
@@ -96,6 +100,8 @@ a {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
+      justify-content: space-evenly;
+
 }
 
 ul {
@@ -106,6 +112,7 @@ p {
   font-size: 14px;
   line-height: 25px;
   color: #777;
+  justify-content: space-evenly;
 }
 
 /* 
@@ -972,7 +979,7 @@ about
 }
 
 #about .section-heading h6 {
-  color: #5fb759;
+  color: #5fb758;
 }
 
 #about .service-item {

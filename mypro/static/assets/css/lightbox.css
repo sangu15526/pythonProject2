@@ -3,7 +3,7 @@ html.lb-disable-scrolling {
   /* Position fixed required for iOS. Just putting overflow: hidden; on the body is not enough. */
   position: fixed;
   height: 100vh;
-  width: 100vw;
+justify-content: space-evenly
 }
 
 .lightboxOverlay {
@@ -15,6 +15,7 @@ html.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
   opacity: 0.95;
   display: none;
+  justify-content: space-evenly
 }
 
 .lightbox {
@@ -25,6 +26,7 @@ html.lb-disable-scrolling {
   text-align: center;
   line-height: 0;
   font-weight: normal;
+  justify-content: space-evenly
 }
 
 .lightbox .lb-image {
@@ -33,10 +35,12 @@ html.lb-disable-scrolling {
   max-width: inherit;
   max-height: none;
   border-radius: 5px;
+  justify-content: space-evenly
 }
 
 .lightbox a img {
   border: none;
+  justify-content: space-evenly
 }
 
 .lb-outerContainer {

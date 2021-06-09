@@ -330,7 +330,7 @@ def total_attendance(request):
             em = 'engaged'
         elif round(total / count) == 3:
             em = 'confusion'
-        elif round(total / count) == 3:
+        elif round(total / count) == 2:
             em = 'bored'
         else:
             em = 'frustrated'
